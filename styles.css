@@ -1,0 +1,489 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    
+}
+img {
+    max-width: 100%;
+}
+#white {
+    background-color: white;
+
+}
+
+.box1 {
+    background-color:white;
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+#red {
+    color:rgb(243, 85, 85);
+    font-weight: bold;
+}
+.box1 h1 {
+        font-size: 50px;
+        font-weight:500;
+        top: 17px;
+        line-height: 2px;
+        position:relative;
+        }
+
+.box1 h6 {
+    font-size: 20px;
+    font-weight:normal;
+    line-height: 2px;
+}
+.box1 ul {
+    display:flex;
+    
+}
+.box1 li, ul a {
+    list-style: none;
+    text-decoration: none;
+    padding:30px 15px;
+    font-size:22px;
+    color: black;
+    }
+
+.about {
+    border-radius: 50%;
+    background-color:rgb(243, 85, 85);
+    color:white;
+}
+.about:hover {
+    color: black;
+}
+
+ul a:hover {
+    color:white;
+    border-radius: 50%;
+    background-color:rgb(243, 85, 85) ;
+}
+#banner {
+    background-image:url("katakimage/image.jpg");
+    padding-top: 40px;
+}
+.box2 {
+     width:90%;
+    margin:auto;
+    }
+.picture {
+    display: flex;
+}
+.picture img {
+    max-width:100%;
+    max-height:400px;
+}
+
+
+.content {
+    width: 90%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contentleft h1::first-letter {
+    color:rgb(203, 27, 27) ;
+    font-weight: bold;
+}
+.contentleft h1 {
+    color:white;
+    font-size: 50px;
+    font-weight: 500;
+ }
+.contentleft {
+    width:20%;
+    }
+.rightmid {
+    width:80%;
+    display: flex;
+}
+.contentmid {
+    font-size: 35px;
+    font-weight:lighter;
+    color:rgb(73, 80, 80);
+    padding-left: 15px;
+}
+
+.contentright {
+    color:rgb(142, 146, 145);
+    font-size: 16px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+.content a {
+    text-decoration: none;
+    color:rgb(203, 27, 27) ;
+    font-weight: bold;
+}
+
+#article {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.box3 {
+    width:90%;
+    margin:auto;
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    }
+.main button {
+  background-color:rgb(229, 71, 71); 
+  color: white;
+  height:35px;
+  width:110px;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+ .main {
+    width:25%;
+    padding:0 15px;
+    color:white;
+    }
+.main h4,img {
+    padding-top: 5px;
+    }
+.main h1 {
+    font-size: 30px;
+}
+.main p {
+   color: rgb(130, 134, 133);
+   position: relative;
+    bottom:20px;
+   }
+.main:first-child {
+    padding-left: 0;
+}
+.main:last-child {
+    padding-right: 0;
+}
+
+#photoshoot {
+    background-image:url("katakimage/image.jpg");
+    padding-top:10px;
+    padding-bottom: 60px;
+}
+.box4 {
+    width:90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.aboutme {
+    width:25%;
+    margin: auto;
+}
+
+.aboutme h1 {
+    color:white;
+    font-size: 30px;
+
+}
+
+.mid {
+    text-align:left;
+    color:rgb(244, 240, 240);
+    padding-top:70px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 40px;
+    width:25%;
+}
+.mid p {
+   color:rgb(142, 146, 145);
+   font-weight:700; 
+}
+
+.line{
+    width:98%; height:1px; background-color: rgb(78, 73, 73);
+}
+.menu {
+    display: flex;
+    color:rgb(207, 76, 76);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 5px;
+}
+
+.menu .column2 {
+    padding-left: 70px;
+}
+.menu div div::before {
+    content:">";
+    padding-right:5px;
+    color:rgb(207, 76, 76);
+}
+
+.latestphoto {
+    width:50%;
+}
+.latestphoto h1 {
+    padding-left: 15px;
+    color:white;
+    font-size: 30px;
+    line-height: 5px;
+    padding-top: 20px;
+}
+.row1, .row2, .row3 {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding-right: 0;
+    padding-top: 12px;
+}
+
+.row1 img {
+    width:25%;
+    height:100px;
+    padding-left: 20px;
+}
+.row2 img {
+    width:25%;
+    height:100px;
+    padding-left: 20px;
+}
+.row3 img {
+    width:25%;
+    height:100px;
+    padding-left: 20px;
+}
+
+#footer {
+    background-color: white;
+    padding:35px 0;
+} 
+
+.box5 {
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.box5 h4 {
+    font-weight: lighter;
+}
+
+ .fa-brands {
+    color:white;
+    background-color:rgb(243, 85, 85);
+    font-size:larger;
+    padding:10px;
+    border-radius: 50%;
+    }
+ i {
+    margin-top: 10px;
+}
+    
+@media (min-width: 501px) and (max-width: 768px) {
+    body {
+        margin:0;
+        max-width: 768px;
+    }
+    
+    
+    .contentleft {
+        width:100%;
+        margin: auto;
+        line-height: 10px;
+    }
+    .rightmid {
+        width:100%;
+        margin: auto;
+        text-align:left;
+        position: relative;
+        bottom:30px ;
+    }
+    .contentmid {
+        display:none;
+    }
+    .main {
+        width:50%;
+        padding:3px;
+    }
+
+    .aboutme {
+        width:50%;
+        margin:auto;
+        }
+    .aboutme img {
+        max-width:100%;
+    }
+     
+        .mid {
+            width:50%;
+            margin:auto;
+        
+        }
+
+        .menu {
+            justify-content: center;
+        }
+
+        .latestphoto {
+            width:100%;
+            padding-right: 30px;
+            text-align:center;
+        }
+        .latestphoto h1 {
+            text-align:center ;
+        }
+        #footer {
+            padding:0;
+            width:100%;
+            margin: auto;
+        }
+     
+   
+.box1 li, ul a {
+    padding:35px 5px;
+    font-size:22px;
+    }
+}
+   
+ @media only screen and (max-width:500px) {
+     body {
+         margin:0;
+         max-width:500px;
+     }
+     .box1 li, ul a {
+        padding:15px 5px;
+        text-align:center;
+        
+     }
+     .box1 ul{
+        width:90%;
+         flex-direction: column;
+     }
+     .box1  {
+        width:90%;
+         flex-direction: column;
+
+     }
+
+     .box1 h1,h6 {
+         text-align: center;
+     }
+
+     .box2 {
+        width:80%;
+       margin:auto;
+       
+       }
+
+    .contentleft {
+        width:90%;
+        margin: auto;
+        line-height: 10px;
+    }
+    .rightmid {
+        width:95%;
+        margin: auto;
+        text-align:left;
+        position: relative;
+        bottom:30px ;
+    }
+    .contentmid {
+        display:none;
+    }
+    
+    .main {
+    width:90%;
+    padding:0;
+    margin:auto;
+    }
+
+    .aboutme {
+        width:90%;
+        margin:auto;
+        text-align:center;
+        padding: 0;
+        }
+    .aboutme img {
+        width:100%;
+    }
+     
+        .mid {
+            width:90%;
+            margin:auto;
+            text-align:justify;
+            padding-top: 40px;
+            padding:0;
+        }
+
+        .menu {
+            justify-content: center;
+        }
+
+        .latestphoto {
+            width:100%;
+            margin: auto;
+            padding-right: 20px;
+            text-align: justify;
+        }
+        .latestphoto h1 {
+            text-align:center ;
+        }
+        #footer {
+            padding:0;
+            width:90%;
+            margin: auto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+    
+
+
+    
+    
+
+
+
+
+
+
